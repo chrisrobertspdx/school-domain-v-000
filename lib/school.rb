@@ -16,9 +16,7 @@ class School
     @roster[num]
   end
   def sort
-    @roster.keys.sort.each {|e|
-      @roster[e].sort
-    }
-    @roster
+    @roster.keys.sort
+
   end
 end
