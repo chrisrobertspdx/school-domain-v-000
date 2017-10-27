@@ -1,7 +1,7 @@
 # code here!
 class School
   attr_reader :name
-  def initialize(name) 
+  def initialize(name)
     @name = name
     @roster = {}
   end
@@ -12,6 +12,6 @@ class School
       @roster[grade] = [name]
   end
   def grade(num)
-    @roster[num].join(', ')
+    @roster[num]
   end
 end
